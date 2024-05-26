@@ -1,0 +1,47 @@
+.arriba
+{
+    height: 10%;
+    background-color: rgb(21, 27, 39)
+}
+
+.portada
+{
+    height: 100%;
+    background-image: url(fondito.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    text-decoration: double;
+      
+    
+    
+}
+
+
+
+.medio
+{
+    height: 100%;
+    background-color: rgb(40, 39, 39);
+}
+
+.izq
+{
+    background-color: rgb(40, 39, 39);
+    height: 100%;
+}
+
+.der
+{
+    background-color: rgb(86, 85, 85);
+    height: 100%;
+}
+
+.abajo
+{
+    height: 20%;
+    background-color: rgb(21, 27, 39)
+}
+

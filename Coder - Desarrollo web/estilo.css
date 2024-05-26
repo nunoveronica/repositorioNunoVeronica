@@ -1,0 +1,89 @@
+
+
+h1
+{
+    color:rgb(152, 10, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    text-decoration: underline;
+}
+
+h2
+{
+    color:rgb(238, 94, 94);
+    font-weight:lighter;
+    text-decoration: underline;
+}
+
+
+
+header
+{
+    background-color: rgb(229, 213, 245);
+    width: 100%;
+    height: 40%;
+
+}
+
+
+section
+{
+    background-color: rgb(199, 239, 199);
+    width: 100%;
+    height: 35%;
+
+}
+
+.uno
+{
+    background-color: rgb(234, 250, 210);
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-left:  5%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    
+
+}
+
+.dos
+{
+    background-color: rgb(218, 239, 187);
+    width: 65%;
+    height: 100%;
+    float: right;
+    padding-left: 5%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+main
+{
+    background-color: aqua;
+    height: 34%;
+    padding: 25px 25px 25px 450px 
+}
+
+footer{
+    background-color: aliceblue;
+    height: 40%;
+}
+
+.ladoA
+{
+    background-color: rgb(234, 250, 210);    
+    width: 30%;
+    height: 45%;
+    float: left;
+}
+
+.ladoB
+{
+    background-color: rgb(218, 239, 187);
+    width: 60%;
+    height: 12%;
+    float: right;
+    padding-top: 120px;
+    padding-left: 10%;
+}
