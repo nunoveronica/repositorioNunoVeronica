@@ -1,21 +1,34 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
 .arriba
 {
     height: 10%;
-    background-color: rgb(21, 27, 39)
+    width: 100%;
+    background-color: rgb(21, 27, 39);
+    position: fixed;
+    
+    
 }
+
+
 
 .portada
 {
     height: 100%;
     background-image: url(fondito.jpg);
+   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     align-items: center;
     text-decoration: double;
-      
     
+         
     
 }
 
@@ -25,23 +38,84 @@
 {
     height: 100%;
     background-color: rgb(40, 39, 39);
+    color:white;
+   
+    
 }
+
 
 .izq
 {
     background-color: rgb(40, 39, 39);
     height: 100%;
+    
+}
+
+@media (max-width: 550px)
+{
+    .izq{
+        width: 100%;
+        height: 70%;
+        }
 }
 
 .der
 {
     background-color: rgb(86, 85, 85);
     height: 100%;
+    
 }
+
+@media (max-width: 550px)
+{
+    .der{
+        width: 100%;
+        height: 70%;
+        }
+}
+
 
 .abajo
 {
-    height: 20%;
-    background-color: rgb(21, 27, 39)
+    
+    height: 15%;
+    
+    background-color: rgb(21, 27, 39); 
+    color:white;
+    padding-left: 40%;
+    padding-top: 2%;
+    
+ 
 }
 
+
+
+ 
+.wpp
+{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 3%;
+    right: 3%;
+
+
+}
+
+.insta
+{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 3%;
+    right: 6%;
+
+
+}
+
+@media (max-width: 550px)
+{
+    .insta{
+        right: 12%;
+        }
+}
