@@ -1,0 +1,28 @@
+.arriba {
+  background-color: rgb(21, 27, 39);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.portada {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.medio {
+  background-color: rgb(21, 27, 39);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.nosotras {
+  background-color: black;
+  color: rgb(69, 67, 67);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.abajo {
+  background-color: rgb(21, 27, 39);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=estilos.css.map */

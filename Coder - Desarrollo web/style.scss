@@ -1,0 +1,48 @@
+@import 'variables';
+
+@mixin contenedor($fuente)
+{
+    font-family: $fuente;
+}
+
+.arriba
+{
+    background-color: $color-fondo;
+    @include contenedor ($fuente-secundaria);
+}
+
+.portada
+{
+    @include contenedor($fuente-principal);
+    
+}
+
+.medio
+{
+    background-color: $color-fondo;
+    color: $color-fuente-prim;
+    
+    @include contenedor ($fuente-principal);
+}
+
+
+.nosotras
+{
+    background-color: $color-fondo2;
+        
+    @if ($color-fondo2 == black)
+    {
+        color: $color-fuente-sec
+    }@else 
+    {   color: $color-fuente-prim
+    }
+
+    @include contenedor($fuente-secundaria);
+}
+
+.abajo
+{
+    background-color: $color-fondo;
+    color: $color-fuente-prim;
+    @include contenedor($fuente-principal);
+}

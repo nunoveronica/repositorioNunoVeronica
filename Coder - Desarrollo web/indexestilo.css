@@ -9,11 +9,9 @@
 {
     height: 10%;
     width: 100%;
-    background-color: rgb(21, 27, 39);
     position: fixed;
         
 }
-
 
 
 .portada
@@ -24,9 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    align-items: center;
-    text-decoration: double;
-             
+    padding-top: 10%;
 }
 
 
@@ -35,15 +31,12 @@
 {
     height: 100%;
     width: auto;
-    background-color: rgb(21, 27, 39);
-    color:white;
     
 }
 
 
 .izq
-{
-   
+{  
     height: 100%;
     padding-top: 5%;
     
@@ -63,36 +56,29 @@
 
 .imagen
 {
-      
     padding-top: 8%;
     width: 90%;
     height: 100%;
-    margin: 0 5 0 0px;
-   
-
+    margin: 0 5 0 0px;   
+    transition: 4s;
 }
 
+.imagen:hover
+{
+    transform: scale(1.1);
+    transition: 4s;
+}
 .nosotras
 {
-    
     text-align: center;
-    background-color: black;
-    color: rgb(46, 44, 44);
-   
 }
 
 
 .abajo
 {
-    
     height: 15%;
-    background-color: rgb(21, 27, 39); 
-    color:white;
     align-items: center;
-         
 }
-
-
 
  
 .wpp
@@ -102,8 +88,18 @@
     height: 60px;
     bottom: 3%;
     right: 3%;
+    transform: translate(0);
+    transform: rotate(0);
 
+    transition: all;
+    transition-duration: 2s;
 }
+
+.wpp:hover
+{
+    transform: rotate(25deg);
+}
+
 
 .insta
 {
@@ -112,25 +108,30 @@
     height: 60px;
     bottom: 3%;
     right: 6%;
+    transform: translate(0);
+    transform: rotate(0);
 
+    transition: all;
+    transition-duration: 2s;
 }
 
-
+.insta:hover
+{
+    transform: rotate(25deg);
+}
 
 
 @media (max-width: 550px)
 {
     .medio
     {      
-        height: 320%;
-        
+        height: 320%;        
     }
 
     .izq{
         width: 110%;
         height: 20%;       
         padding-top: 10%;
-                        
         }
 
 
@@ -138,20 +139,17 @@
         width: auto;
         height: 80%;
         flex-direction: column;
-        align-items: center;
-                         
+        align-items: center;                
         }
 
     .imagen{
-        height: 50%;
-        padding-top: 1%;
-            
-    }    
+           height: 50%;
+           padding-top: 1%;
+           }    
 
-    .nosotras{
-        
-        padding-top: 5%;
-    }
+    .nosotras{        
+             padding-top: 5%;
+             }
 
     .abajo{
          width:auto;
@@ -179,23 +177,21 @@
 {
     .portada{
         height:80%;
-    }
+            }
+
     .medio{
-     
         height: 100%;
-        
-    }
+          }
+
     .izq{
         width: 100%;
         height: 55%;
-       
         }
 
 
     .der{
         width: 100%;
         height: 55%;
-      
         }
     
    
@@ -204,9 +200,7 @@
          height: 30%;
          align-items: center;
          padding-top: 10%;
-         
-    
-          }    
+         }    
 
     .insta{
          right: 10%;
