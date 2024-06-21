@@ -8,8 +8,20 @@
 .arriba
 {
     background-color: $color-fondo;
+    text-transform: uppercase;
+    transition: .25s ease-in;
     @include contenedor ($fuente-secundaria);
+
+    a{
+        color: $color-fuente-prim;
+    }
 }
+
+.arriba a:hover
+{
+    text-shadow: 0px 0px 10px black;
+}
+
 
 .portada
 {
@@ -23,11 +35,28 @@
     color: $color-fuente-prim;
     
     @include contenedor ($fuente-principal);
+    
+}
+
+a
+{
+    color: $color-fuente-prim;
+    transition: all;
+    transition-duration: 400ms;
+}
+
+a:hover
+{
+    color: blue;
 }
 
 
 .nosotras
 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $color-fondo2;
         
     @if ($color-fondo2 == black)
@@ -38,6 +67,22 @@
     }
 
     @include contenedor($fuente-secundaria);
+
+    text-transform: uppercase;
+    transition: .25s ease-in;
+}
+
+
+.nosotras h1:hover
+{
+    text-shadow: 0px 0px 8px $color-fuente-sec; 
+    
+}
+
+.nosotras p:hover
+{
+    font-size: 20px;
+    color: $color-fuente-prim;
 }
 
 .abajo
