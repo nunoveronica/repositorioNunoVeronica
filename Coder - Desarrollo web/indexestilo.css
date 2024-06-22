@@ -10,6 +10,7 @@
     height: 10%;
     width: 100%;
     position: fixed;
+    
         
 }
 
@@ -128,6 +129,10 @@
 
 @media (max-width: 550px)
 {
+    .arriba{
+        font-size: 14px;
+                
+    }
     .medio
     {      
         height: 320%;        
